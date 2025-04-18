@@ -40,6 +40,7 @@ This module is responsible for analyzing a parking lot image and outputting the 
 
 Returns a dictionary like:
 
+
 ```python
 {
   "A1": "occupied",
@@ -47,10 +48,10 @@ Returns a dictionary like:
   "A3": "occupied",
   ...
 }
+```
 
-🧪 Testing and Visualization
-----------------------------
-
+## 🧪 Testing and Visualization
+----------------------
 There is also a separate testing script (e.g., test\_spot\_boxes.py) used to:
 
 *   Load the parking lot image
@@ -62,7 +63,7 @@ There is also a separate testing script (e.g., test\_spot\_boxes.py) used to:
 
 This was used to manually validate the accuracy of bounding boxes before running detection.
 
-🔄 Future Improvements
+## 🔄 Future Improvements
 ----------------------
 
 This detector currently works with static images. However, future plans include:
