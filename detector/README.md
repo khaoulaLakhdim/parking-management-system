@@ -47,3 +47,31 @@ Returns a dictionary like:
   "A3": "occupied",
   ...
 }
+
+🧪 Testing and Visualization
+----------------------------
+
+There is also a separate testing script (e.g., test\_spot\_boxes.py) used to:
+
+*   Load the parking lot image
+    
+*   Draw each defined parking spot as a green rectangle
+    
+*   Label each spot ID visually
+    
+
+This was used to manually validate the accuracy of bounding boxes before running detection.
+
+🔄 Future Improvements
+----------------------
+
+This detector currently works with static images. However, future plans include:
+
+*   Accepting a **video feed** (e.g., .mp4 file)
+    
+*   Live detection from a **real-time camera stream**
+    
+*   Automatically reading frames at intervals and updating spot status
+    
+
+These upgrades will make the detection system work in continuous real-time mode — not just from a static input.
