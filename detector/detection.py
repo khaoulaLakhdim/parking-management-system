@@ -1,5 +1,5 @@
 from ultralytics import YOLO
-from parking_layout import PARKING_SPOTS
+from detector.parking_layout import PARKING_SPOTS
 
 # Load model once globally (faster for repeated calls)
 model = YOLO("yolov8n.pt")
